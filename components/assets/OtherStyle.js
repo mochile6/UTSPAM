@@ -1,0 +1,52 @@
+import {StyleSheet} from 'react-native';
+
+export default StyleSheet.create({
+  container: {
+    backgroundColor: '#fff',
+    borderRadius: 15,
+    padding: 30,
+    width: '90%',
+    position: 'absolute',
+    top: '5%',
+    left: '5%',
+    shadowColor: '#000',
+    elevation: 5,
+    height: '82%',
+  },
+  container2: {
+    backgroundColor: '#e6f5ff',
+    borderRadius: 15,
+    padding: 30,
+    width: '90%',
+    position: 'absolute',
+    top: '55%',
+    left: '18%',
+    shadowColor: '#000',
+    elevation: 5,
+    height: '50%',
+  },
+  text: {
+    fontSize: 19,
+    marginTop: 20,
+    color: '#082f82',
+    textAlign: 'center',
+    fontWeight: 'bold',
+    bottom: '19%',
+  },
+  text2: {
+    fontSize: 18,
+    marginTop: 20,
+    color: '#082f82',
+    textAlign: 'center',
+    fontWeight: 'bold',
+    bottom: '15%',
+  },
+  image: {
+    width: 200,
+    height: 300,
+    left: '16%',
+    bottom: '5%',
+    borderRadius: 30,
+    resizeMode: 'contain',
+  },
+});
